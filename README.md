@@ -1,18 +1,13 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Linked List Data Structure
 ====
+#### Version / Author
+1.0.1 / 
+Daniel Frey
 
-## To Submit this Assignment
-  * Do all your work in a public repository called `data-structures-and-algorithms`
-  * write all of your code in a directory named `linked-lists`
-  * push to your repository
-  * submit a pull request to this repository
-  * submit a link to your PR in canvas
-  * write a question and observation on canvas
+#### Travis CI
+[![Build Status](https://travis-ci.com/fncreative/05-linked-lists-FUNdamentals.svg?branch=master)](https://travis-ci.com/fncreative/05-linked-lists-FUNdamentals)
 
-## Requirements  
 #### Configuration  
-  <!-- list of files, configurations, tools, etc that are required -->
-  Your lab directory must include  
   * **index.js** -- The entry point to your module
   * **README.md** -- with a documentation about your lab
   * **.gitignore** -- with a robust .gitignore
@@ -24,16 +19,16 @@
   * **__tests__/** -- directory for holding your programs unit and integration tests
 
 #### Testing  
-  * write at least two tests for each method of the Singly Linked List Data Structure
-  * organize your tests into appropriate describe/it blocks for test output readability
+  * Multiple tests have been written for each - One will insert a number and the other will
+  insert a string (both at the head). The second will remove a number and then a string (from 
+  the tail)
 
 ####  Documentation  
-  * in your README, write documentation for you data structures
-  * your documentation should includes code block useage examples
-  * provide instructions for:
-    * installing and using your data structure
-    * accessing each method
-    * running your tests
+  * There are five files, index.js (which is the entry point), the LinkedList file and
+    the node file. There are also two test files, one for the list, and another for node.
+  * instructions:
+    * clone the repo and run npm i to get all of the required dependencies
+    * running the test requires "npm test" from the command prompt
 
 #### Feature Tasks  
 * implement a Singly Linked List (SLL) data structure
@@ -42,5 +37,6 @@
 	* the head of the linked lists represents offset 0
 * in a comment within each function, note the it's Big-O runtime
 
-#### Stretch Goals
+#### Stretch Goals not yet implemented
 * implement `append(value)`, `prepend(value)`, `reverse()` methods to the SLL class
+
